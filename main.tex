@@ -1,0 +1,67 @@
+
+%% The first command in your LaTeX source must be the \documentclass command.
+\documentclass[sigconf]{acmart}
+
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    \normalfont B\kern-0.5em{\scshape i\kern-0.25em b}\kern-0.8em\TeX}}}
+
+\begin{document}
+
+\title{Recurrent Adversarial Audio Synthesis}
+
+\author{Bryan Medina}
+\email{bryanjosemedina@knights.ucf.edu}
+\affiliation{%
+    \institution{}
+}
+\author{Minh Pham}
+\email{minh.pham@knights.ucf.edu}
+\affiliation{%
+    \institution{University of Central Florida}
+    \city{Orlando}
+    \state{Florida}
+}
+\author{Kobee Raveendran}
+\email{kobee.raveendran@knights.ucf.edu}
+\affiliation{%
+    \institution{}
+}
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+\renewcommand{\shortauthors}{Trovato and Tobin, et al.}
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+\begin{abstract}
+  
+\end{abstract}
+
+\keywords{datasets, neural networks, gaze detection, text tagging}
+
+\maketitle
+
+\section{Introduction}
+\section{An Argument for GRUs}
+
+\begin{acks}
+
+\end{acks}
+
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{sample-base}
+
+%%
+%% If your work has an appendix, this is the place to put it.
+\appendix
+\end{document}
+\endinput
+%%
+%% End of file `sample-sigconf.tex'.
